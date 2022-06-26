@@ -1,0 +1,136 @@
+*{
+  padding : 0;
+  margin : 0;
+}
+.container {
+  width : 700px;
+  margin : 0 auto;
+  box-sizing: border-box;
+  height : 100vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 125%;
+  align-items: center;
+  padding : 1.2rem 0;
+  background-image: url('background.jpg');
+  color :white;
+}
+header>p{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+header>ul{
+  display: flex;
+}
+header>ul>li{
+  list-style-type: none;
+  margin-left: 1.5rem;
+
+}
+header>ul>li>a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding-bottom: 5px;
+  color :white;
+}
+header>ul>li>a:hover{
+  border-bottom: 5px solid
+  white;
+}
+section{
+  padding : 0 1rem;
+  text-align: center;
+}
+section>p{
+  margin-bottom: : 1rem;
+}
+section>p:first-child{
+  display: flex;
+  font-size: 2rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(2){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+section>p:nth-of-type(2){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+section>p:nth-of-type(3){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+section>p:nth-of-type(4){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+section>p:nth-of-type(5){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 1000;
+}
+section>p:nth-of-type(6){
+  display: flex;
+  font-size: 2rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(7){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(8){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(9){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(10){
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(11){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(12){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(13){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+section>p:nth-of-type(14){
+  display: flex;
+  font-size: 1rem;
+  font-weight: 900;
+}
+footer{
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+footer>a{
+  text-decoration: none;
+}
